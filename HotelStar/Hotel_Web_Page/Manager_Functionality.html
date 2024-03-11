@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Managment</title>
+  </head>
+  <body>
+    <h1>MANAGEMENT FEATURES</h1>
+    <div name="terminate" id="terminate" class="terminate">
+      <h2>Terminate Employee:</h2>
+      <label for="terminated-emp-id">Employee ID:</label>
+      <input type="text" name="terminated-emp-id" />
+
+      <button type="button" id="confirm-termination" name="confirm-termination">Confirm Termination</button>
+    </div>
+
+    <div name="remove-cust" id="remove-cust" class="remove-cust">
+      <h2>Remove Customer:</h2>
+      <label for="removed-sin">SIN:</label>
+      <input type="text" name="removed-sin" />
+
+      <button type="button" name="confirm-remove-cust" id="confirm-remove-cust">Confirm Removal</button>
+    </div>
+
+    <div name="update-cust" id="update-cust" class="update-cust">
+      <h2>Update Customer:</h2>
+      <div>
+        <label for="updated-cust-sin">SIN:</label>
+        <input type="text" name="updated-cust-sin" />
+      </div>
+      <div name="cust-attribute-list" id="cust-attribute-list">
+          <label for="cust-attribute-list">Choose Attribute To Update: </label>
+          <input type="radio" id="sin" name="attribute" value="sin" />
+          <label for="sin">SIN</label>
+          <input
+            type="radio"
+            id="last-name"
+            name="attribute"
+            value="last-name"
+          />
+          <label for="last-name">Last Name</label>
+          <input
+            type="radio"
+            id="first-name"
+            name="attribute"
+            value="first-name"
+          />
+          <label for="first-name">First Name</label>
+          <input type="radio" id="address" name="attribute" value="address" />
+          <label for="address">Address</label>
+          <input type="radio" id="email" name="attribute" value="email" />
+          <label for="email">Email</label>
+      </div>
+      <div>
+        <label for="new-cust-val">Enter New Value:</label>
+        <input type="text" name="updated-emp-id" />
+      </div>
+      </div>
+
+      <button type="button" name="confirm-cust-update" id="confirm-cust-update">Confirm Update</button>
+    </div>
+
+    <div name="update-emp" id="update-emp" class="update-emp">
+        <h2>Update Employee:</h2>
+        <div>
+          <label for="updated-emp-id">Employee ID:</label>
+          <input type="text" name="updated-emp-id" />
+        </div>
+        <div name="emp-attribute-list" id="emp-attribute-list">
+            <label for="emp-attribute-list">Choose Attribute To Update: </label>
+            <input type="radio" id="employee-number" name="attribute" value="employee-number">
+            <label for="employee-number">Employee Number</label>
+            <input type="radio" id="sin" name="attribute" value="sin">
+            <label for="sin">SIN</label>
+            <input type="radio" id="last-name" name="attribute" value="last-name">
+            <label for="last-name">Last Name</label>
+            <input type="radio" id="first-name" name="attribute" value="first-name">
+            <label for="first-name">First Name</label>
+            <input type="radio" id="address" name="attribute" value="address">
+            <label for="address">Address</label>
+            <input type="radio" id="job" name="attribute" value="job">
+            <label for="job">Job</label>
+            <input type="radio" id="manager-id" name="attribute" value="manager-id">
+            <label for="manager-id">Manager ID</label>
+        </div>         
+        <div>
+          <label for="new-emp-val">Enter New Value:</label>
+          <input type="text" name="updated-emp-id" />
+        </div>
+        <button type="button">Confirm Update</button>
+    </div>
+
+    <div name="new-hire-forum" id="new-hire-forum">
+        <h2>New Hire:</h2>
+
+        
+        <label for="employee-number">Employee Number:</label>
+        <input type="text" id="employee-number" name="employee-number"><br>
+       
+        <label for="sin">SIN:</label>
+        <input type="text" id="sin" name="sin"><br>
+        
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name"><br>
+        
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name"><br>
+        
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br>
+        
+        <label for="job">Job:</label>
+        <input type="text" id="job" name="job"><br>
+        
+        <label for="manager-id">Manager ID:</label>
+        <input type="text" id="manager-id" name="manager-id"><br>
+        
+        
+        
+      
+        <button id="confim-new-hire" name="confirm-new-hire">
+        Confirm Update
+        </button>
+    </div>
+  </body>
+</html>
